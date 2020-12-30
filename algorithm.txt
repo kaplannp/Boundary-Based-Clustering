@@ -1,0 +1,7 @@
+GIVEN: a set of points, X, in n-dimensional space with granularity g
+1: Enlcose the points in a n-dimensional hypecube grid with g*n verticies
+2: compute the density at each point
+3: compute the gradient of the density function at each point
+4: Locate adjacent points for which the gradients of the respective points are more than 90 degrees different
+5: Create a hyperplane at each point for which adjacent gradients were greater than 90 degrees apart that is maximaly perpendicular to both gradients
+6: stitch the hyperplanes together along their intersections, and use the result as a cluster boundary
